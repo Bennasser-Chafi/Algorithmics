@@ -1,7 +1,7 @@
 /**
  * @author CHAFI Bennassar
  *
- * @context : This project illustrate an implementation of the Heap data structure, and the Heap Sort algorithm.
+ * @context This project illustrate an implementation of the Heap data structure, and the Heap Sort algorithm.
  */
 
 public class Main {

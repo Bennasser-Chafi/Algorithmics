@@ -1,3 +1,7 @@
+/**
+* This class represents a single node in the heap data structure
+*/
+
 public class Node {
     
     private int key;
