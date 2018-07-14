@@ -43,7 +43,7 @@ public class Main {
 
 		for (int i = 1; i < sortedArray.length; i++) {
 
-			int rightIndex = getRightPosition(sortedArray, 0, i - 1, sortedArray[i]);
+			int rightIndex = getRightPosition(sortedArray, 0, i - 1, array[i]);
 
 			for (int j = i; j > rightIndex; j--) {
 				int temp = sortedArray[j];
