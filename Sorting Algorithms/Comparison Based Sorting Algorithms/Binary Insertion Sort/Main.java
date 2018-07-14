@@ -64,7 +64,7 @@ public class Main {
 	 * @param toIndex, the index of the last element (inclusive) to be searched
 	 * @param newElement, element to find the position where it fits in the sorted array
 	 *           
-	 * @return position where the new elements fits or -1 of the array is
+	 * @return position where the new elements fits
 	 **/
 	public static int getRightPosition(int[] sortedArray, int fromIndex, int toIndex, int newElement) {
 
