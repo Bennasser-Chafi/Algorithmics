@@ -101,7 +101,9 @@ class Heap {
         return sortedArray;
     }
 
-
+    /**
+     * Draw and display a heap in its tree form 
+     */
     public void displayHeap() {
 
         int numberOfLevels = (int) (Math.ceil(Math.log(heapSize + 1) / Math.log(2)));
