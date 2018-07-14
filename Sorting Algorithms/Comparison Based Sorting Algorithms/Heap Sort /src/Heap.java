@@ -1,5 +1,9 @@
 import java.util.Arrays;
 
+/**
+ * This class implements the heap data structure and the Heap Sort algorithm
+ */
+
 class Heap {
 
     private Node[] heapArray;
