@@ -1,0 +1,65 @@
+import java.util.Arrays;
+import java.util.Random;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+
+        int array[] = new int[10];
+        Random rand = new Random();
+
+        for (int i = 0; i < array.length; i++) {
+            array[i] = rand.nextInt((100 - 0) + 1) + 0;
+        }
+
+        long start = System.nanoTime();
+        int[] sortedArray = BinarySearchTree.sort(array);
+        long time = System.nanoTime() - start;
+
+
+        System.out.println("Time required to sort this array using Binary Insertion Sort algorithm is : "
+                + (time / 100000 / 1000.0) + " seconds!");
+        System.out.println(Arrays.toString(sortedArray));
+
+
+
+
+
+        /*BinarySearchTree tree = new BinarySearchTree();
+
+
+        Node root = new Node(5);
+        Node node1 = new Node(2);
+        Node node2 = new Node(12);
+
+        Node node3 = new Node(-4);
+        Node node4 = new Node(3);
+        Node node5 = new Node(9);
+        Node node6 = new Node(21);
+        Node node7 = new Node(19);
+        Node node8 = new Node(25);
+
+        root.left = node1;
+        root.right = node2;
+
+        node1.left = node3;
+        node1.right = node4;
+
+        node2.left = node5;
+        node2.right = node6;
+
+        node6.left = node7;
+        node6.right = node8;
+
+
+        tree.root = root;
+
+
+        System.out.println(tree.findMax().key);
+
+        tree.remove(new Node(25));
+*/
+
+    }
+}
